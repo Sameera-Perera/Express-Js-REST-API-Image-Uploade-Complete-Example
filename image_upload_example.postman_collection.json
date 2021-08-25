@@ -1,0 +1,216 @@
+{
+	"info": {
+		"_postman_id": "eb14c125-6473-4b1a-97db-b296ee7e605d",
+		"name": "image_upload_example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/profiles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"profiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "Vicki",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Hanson",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "waterford",
+							"type": "text"
+						},
+						{
+							"key": "contact_number",
+							"value": "(431)-765-6773",
+							"type": "text"
+						},
+						{
+							"key": "profile_picture",
+							"type": "file",
+							"src": "/C:/Users/masrk/Downloads/undraw_image_options_7uph (2).png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/profiles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"profiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vehicle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/vehicles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"vehicles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vehicle",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "BMW",
+							"type": "text"
+						},
+						{
+							"key": "year",
+							"value": "2012",
+							"type": "text"
+						},
+						{
+							"key": "image_1",
+							"type": "file",
+							"src": "/C:/Users/masrk/Downloads/undraw_Posting_photo_re_plk8 (1).png"
+						},
+						{
+							"key": "image_2",
+							"type": "file",
+							"src": "/C:/Users/masrk/Downloads/undraw_insert_08ir (1).png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/vehicles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"vehicles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "gallery",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/galleries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"galleries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "gallery",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "my_images",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "images",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "my_images",
+							"type": "text"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": [
+								"/C:/Users/masrk/Downloads/undraw_insert_08ir.png",
+								"/C:/Users/masrk/Downloads/undraw_image_options_7uph.png",
+								"/C:/Users/masrk/Downloads/undraw_image_options_7uph (1).png"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/galleries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"galleries"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
