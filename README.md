@@ -91,6 +91,6 @@ Project Link: [https://github.com/Sameera-Perera/Express-Js-REST-API-Image-Uploa
 [stars-url]: https://github.com/Sameera-Perera/Express-Js-REST-API-Image-Uploade-Complete-Example/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Sameera-Perera/Express-Js-REST-API-Image-Uploade-Complete-Example.svg?style=for-the-badge
 [issues-url]: https://github.com/Sameera-Perera/Express-Js-REST-API-Image-Uploade-Complete-Example/issues
-[linkedin-shield]: http://www.linkedin.com/in/sameera-perera-1148081b8
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: http://www.linkedin.com/in/sameera-perera-1148081b8
 [product-screenshot]: home.png
