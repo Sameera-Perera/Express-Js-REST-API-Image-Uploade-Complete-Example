@@ -2,7 +2,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 <!-- PROJECT LOGO -->
 <p align="center">
@@ -92,8 +91,6 @@ Project Link: [https://github.com/Sameera-Perera/Express-Js-REST-API-Image-Uploa
 [stars-url]: https://github.com/Sameera-Perera/Express-Js-REST-API-Image-Uploade-Complete-Example/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Sameera-Perera/Express-Js-REST-API-Image-Uploade-Complete-Example.svg?style=for-the-badge
 [issues-url]: https://github.com/Sameera-Perera/Express-Js-REST-API-Image-Uploade-Complete-Example/issues
-[license-shield]: https://img.shields.io/github/license/Sameera-Perera/Express-Js-REST-API-Image-Uploade-Complete-Example.svg?style=for-the-badge
-[license-url]: https://github.com/Sameera-Perera/Express-Js-REST-API-Image-Uploade-Complete-Example/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: http://www.linkedin.com/in/sameera-perera-1148081b8
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: home2.png
+[product-screenshot]: home.png
